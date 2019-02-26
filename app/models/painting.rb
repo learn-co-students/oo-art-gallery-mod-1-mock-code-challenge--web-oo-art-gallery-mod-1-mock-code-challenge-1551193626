@@ -7,6 +7,9 @@ class Painting
   def initialize(title, price)
     @title = title
     @price = price
+    @@all << self
   end
+
+  
 
 end
