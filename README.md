@@ -27,10 +27,10 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 **ARTIST**
 
   * `Artist.all`
-    * Returns an `array` of all the artists
+    * Returns an `array` of all the artists DONE 
 
   * `Artist#paintings`
-    * Returns an `array` all the paintings by an artist
+    * Returns an `array` all the paintings by an artist DONE
 
   * `Artist#galleries`
     * Returns an `array` of all the galleries that an artist has paintings in
@@ -50,7 +50,7 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 **PAINTING**
 
   * `Painting.all`
-    * Returns an `array` of all the paintings
+    * Returns an `array` of all the paintings DONE 
 
   * `Painting.total_price`
     * Returns an `integer` that is the total price of all paintings
@@ -58,10 +58,10 @@ An artist can, of course, have many paintings. Paintings can only be in one gall
 **GALLERY**
 
   * `Gallery.all`
-    * Returns an `array` of all the galleries
+    * Returns an `array` of all the galleries DONE 
 
   * `Gallery#paintings`
-    * Returns an `array` of all paintings in a gallery
+    * Returns an `array` of all paintings in a gallery DONE 
 
   * `Gallery#artists`
     * Returns an `array` of all artists that have a painting in a gallery
